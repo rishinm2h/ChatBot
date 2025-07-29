@@ -24,13 +24,13 @@ function App() {
     },
   ]);
   const [typing, setTyping] = useState(false);
-  const [selectedModel, setSelectedModel] = useState("deepseek/deepseek-r1:free"); // Default model
+  const [selectedModel, setSelectedModel] = useState("openai/gpt-3.5-turbo"); // Default model
   const chatbotRef = useRef(null); // Ref for chatbot panel
 
   const availableModels = [
-    { name: "DeepSeek R1", value: "deepseek/deepseek-r1:free" },
-    { name: "Qwen", value: "qwen/qwen3-coder:free" },
-    { name: "Mistral", value: "mistralai/mistral-nemo:free" },
+    { name: "GPT", value: "openai/gpt-3.5-turbo" },
+    { name: "Mistral", value: "mistralai/mistral-nemo" },
+    { name: "Gemma", value: "google/gemma-7b-it" },
   ];
 
   // Close chatbot when clicking outside
