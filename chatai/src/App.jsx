@@ -30,7 +30,7 @@ function App() {
   const availableModels = [
     { name: "GPT", value: "openai/gpt-3.5-turbo" },
     { name: "Mistral", value: "mistralai/mistral-nemo" },
-    { name: "Gemma", value: "google/gemma-7b-it" },
+    { name: "Deepseek", value: "deepseek/deepseek-r1:free" },
   ];
 
   // Close chatbot when clicking outside
