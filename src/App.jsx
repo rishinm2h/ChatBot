@@ -28,7 +28,7 @@ function App() {
   const chatbotRef = useRef(null); // Ref for chatbot panel
 
   const availableModels = [
-    { name: "GPT", value: "openai/  " },
+    { name: "GPT", value: "openai/gpt-3.5-turbo" },
     { name: "Mistral", value: "mistralai/mistral-nemo" },
     { name: "Deepseek", value: "deepseek/deepseek-r1:free" },
   ];
